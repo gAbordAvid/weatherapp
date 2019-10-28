@@ -1,0 +1,72 @@
+body {
+    width: auto;
+    height: 837px;
+    background: url("morning.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#searchBox {
+    margin-top: 100px;
+}
+
+.searching {
+    border-radius: 10px;
+}
+
+#box {
+    width: 360px;
+    display: block;
+    box-shadow: 3px 3px 5px black;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 30px;
+    visibility: hidden;
+}
+
+#mainInfo {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#temperature {
+    font-size: 45px;
+}
+
+.wethIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.wethIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.humi {
+    font-size: 20px;
+    float: left;
+}
+
+.windi {
+    font-size: 20px;
+    float: right;
+}
+
+#weatherIcon {
+    width: 90px;
+    height: 90px;
+}
+
+.cr{
+    position: absolute;
+    bottom: 0;
+}

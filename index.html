@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="controll">
+
+        <div id="searchBox" class="mb-5">
+            <input type="text" name="" id="location" class="searching" placeholder="Location or Zipcode"><br><br><br>
+            <button type="submit" id="button" class="searching btn btn-dark">Search</button>
+            <button type="submit" id="met" class="searching btn btn-dark">EU</button>
+            <button type="submit" id="imp" class="searching btn btn-dark">US</button>
+        </div>
+
+        <div id="box" class="m-auto">
+
+            <div class="humi"  onclick="change()"><img src="humidity.jpg" class="wethIcon ">
+                <div id="humidity"></div>
+            </div>
+            <div id="windi" class="windi"><img src="wind.jpg" class="wethIcon">
+                <div id="windSpeed"></div>
+            </div>
+            <div id="mainInfo">
+                <div id="temperature"></div>
+                <h1 id="city"></h1>
+                <div><img id="weatherIcon"></div>
+                <div id="weatherDesc"></div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="cr">© WinneTwo</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
